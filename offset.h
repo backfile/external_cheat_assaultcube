@@ -19,6 +19,8 @@ constexpr auto dwEntityList = 0x18AC04;
 // Player
 constexpr auto m_iHealth = 0xEC;
 constexpr auto m_iName = 0x205;
+constexpr auto m_Balas = 0x140;
+constexpr auto m_Balas_Pistola = 0x12C;
 constexpr auto m_Armor = 0xF0;
 constexpr auto m_XCoord = 0x28;
 constexpr auto m_YCoord = 0x2C;
