@@ -1,5 +1,5 @@
-
-
+#ifndef OFFSET
+#define OFFSET
 #include <stdint.h>
 
 // What is constexpr?
@@ -46,3 +46,4 @@ Offsets for Assault Cube (64 bits)
 */
 
 // constexpr auto m_iHealth = 0x8;
+#endif

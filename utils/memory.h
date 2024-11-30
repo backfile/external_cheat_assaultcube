@@ -1,5 +1,5 @@
-#pragma once
-
+#ifndef MEMORY
+#define MEMORY
 #define WIN32_LEAN_AND_MEAN
 
 #include <Windows.h>
@@ -85,3 +85,5 @@ public:
 		::WriteProcessMemory(processHandle, reinterpret_cast<void*>(address), &value, sizeof(T), NULL);
 	}
 };
+
+#endif
